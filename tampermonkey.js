@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hide Support Session indicators
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Makes your support session Calypso screen look normal for 10 seconds, for screenshot purposes
 // @author       Senff
 // @require      https://code.jquery.com/jquery-1.12.4.js
@@ -27,7 +27,9 @@ function removeStuff() {
 }
 
 $(document).ready(function() {
-    addNormalLookButton();
+    setTimeout(function() {
+        addNormalLookButton();
+    }, 1500);
 });
 
 $('body').on('click', '#support-screen-shot', function() {
