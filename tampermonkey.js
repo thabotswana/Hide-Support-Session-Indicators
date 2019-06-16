@@ -23,7 +23,7 @@ function removeStuff() {
     setTimeout(function () {
         $('#wpcom > .layout').addClass('is-support-session');
         $('.masterbar__quick-language-switcher, body > div:last-of-type, .environment-badge, #support-screen-shot').fadeIn(1000);
-    }, 3000);
+    }, 10000);
 }
 
 $(document).ready(function() {
