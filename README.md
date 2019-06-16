@@ -1,7 +1,7 @@
 ## WHAT DOES THIS CSS/JAVASCRIPT DO
 
 - adds a button at the bottom right of the screen when you're in a Support Session
-- selecting the button will make the screen "normal" for 10 seconds (remove the orange bar and all buttons that are part of the support session), so you can take a screenshot for the customer
+- selecting the button will make the screen "normal" for 10 seconds (remove the orange bar and all buttons that are part of the support session), so you can take a clean screenshot for the customer
 
 
 ## REQUIREMENTS:
