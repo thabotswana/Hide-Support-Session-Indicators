@@ -19,10 +19,17 @@ function addNormalLookButton() {
 
 function removeStuff() {
     $('#wpcom > .layout').removeClass('is-support-session');
-    $('.masterbar__quick-language-switcher, body > div:last-of-type, .environment-badge, #support-screen-shot').fadeOut(200);
+    $('body > div').each(function(d) {
+        var hasClasses = $(this).attr('class');
+        if (typeof hasClasses == 'undefined') {
+            $(this).addClass('dontshow');
+        }
+    });
+    $('.masterbar__quick-language-switcher, .dontshow, .environment-badge, #support-screen-shot').fadeOut(200);
     setTimeout(function () {
         $('#wpcom > .layout').addClass('is-support-session');
-        $('.masterbar__quick-language-switcher, body > div:last-of-type, .environment-badge, #support-screen-shot').fadeIn(1000);
+        $('.masterbar__quick-language-switcher, .dontshow, .environment-badge, #support-screen-shot').fadeIn(1000);
+        $('.dontshow').removeAttr('class');
     }, 10000);
 }
 
