@@ -5,6 +5,7 @@
 // @description  Makes your support session Calypso screen look normal for 10 seconds, for screenshot purposes
 // @author       Senff
 // @require      https://code.jquery.com/jquery-1.12.4.js
+// @updateURL    https://github.com/senff/Hide-Support-Session-Indicators/raw/master/hide-session-indicators.user.js
 // @match        https://wordpress.com/*
 // @grant        none
 // ==/UserScript==
