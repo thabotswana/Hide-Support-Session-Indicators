@@ -27,7 +27,7 @@ Tampermonkey does the same, but for Javascript, to modify functionality.
 5. **SAVE**
 6. Install Tampermonkey
 7. Create a new script, with name "_Hide Support Session Indicators_"
-8. Paste the contents of **tampermonkey.js** into the code field
+8. Paste the contents of **hide-session-indicators.user.js** into the code field
 9. **SAVE**
 
 ## MORE INFORMATION:
